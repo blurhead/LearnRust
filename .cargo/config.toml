@@ -1,0 +1,5 @@
+[build]
+rustflags = ["--cfg", "feature=\"nocapture\""]
+
+[unstable]
+test_all_targets = true
